@@ -1,0 +1,15 @@
+文件说明：
+index.js: 入口文件
+state.js: 管理所有状态，一般是基础数据，可以通过基础数据计算的通过getters返回
+mutations.js: 改变store中的状态  vuex提供 mapMutations语法糖，写在methods中传入对象
+mutation-types.js: 和mutations相关的字符串常量,命名规则 SET_ 或 UPDATE_
+actions.js: 异步操作,如果在一个动作中多次提交mutation，可以在action中封装操作，可以接收 {commit, state}，vuex提供mapActions语法糖,传入数组，写在methods中
+getters.js: 对state做映射,也可以返回一些计算属性的值，vuex提供mapGetters语法糖，写在computed中，传入数组
+
+
+定义状态state
+  -> 定义mutation-type常量
+    -> mutation定义修改操作
+      -> getter包装，在组件中获取数据
+        ->定义action操作
+          -> 入口文件

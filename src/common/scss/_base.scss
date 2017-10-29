@@ -1,0 +1,46 @@
+@import "variable";
+html,body{
+  line-height: 1;
+  font-weight:200;
+  font-family: 'PingFang SC','Helvetica Neue',Helvetica,STHeiTi,Arial,sans-serif;
+  max-width: 540px;
+  margin:0 auto;
+}
+.detailpage{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index:200;
+  background-color: #fff;
+   overflow-y: auto;
+   -webkit-overflow-scrolling:touch;
+}
+.origin-arrow{
+  width:12*$n;
+  height:22*$n;
+  display: inline-block;
+  margin-top:2*$n;
+  margin-left:9*$n;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  @include bg-image('../../../static/imgs/yellow-arrow');
+}
+.trygoods{
+  max-width: 540px;
+}
+.list-load-tip{
+  font-size: 24*$n;
+  line-height: 40*$n;
+  height: 40*$n;
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+.loading-container{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
