@@ -15,10 +15,10 @@
               </div>
             </div>
           </div>
-          <div v-if="item.list" class="applyPers" @click="toApplyList(item)">
+          <div v-if="item.list.length > 0" class="applyPers" @click="toApplyList(item)">
             <apply-persons :list="item.list" :showmore="showmore" :limit="limit" class="persons"></apply-persons>
             <span v-if="listType === 3" class="applyNum">{{item.try_applys}}人已申请</span>
-            <div v-else class="toViewList"><span>中奖名单已公布</span><i class="origin-arrow"></i></div>
+            <div v-if="item.list.length > 0" class="toViewList"><span>中奖名单已公布</span><i class="origin-arrow"></i></div>
           </div>
         </li>
         <div class="list-load-tip" v-show="data.length" :class="{nomore:nomore}">{{loadtip}}</div>
@@ -145,6 +145,7 @@
       width: 100%;
       .persons{
         display: inline-block;
+        height: 58*$n;
       }
       .applyNum{
         font-size: 24*$n;
