@@ -2,6 +2,10 @@
 
 > 肤君试用
 
+## 手机扫描查看效果
+
+![](https://github.com/wenyiweb/vuejs-fujun/blob/master/static/imgs/code.png)
+
 ## Build Setup
 
 ``` bash
