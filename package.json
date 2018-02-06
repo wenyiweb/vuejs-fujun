@@ -1,8 +1,8 @@
 {
   "name": "fujun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "肤君试用",
-  "author": "杨文毅 <yangwenyi@yoka.com>",
+  "author": "杨文毅 <yangwenyi06@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

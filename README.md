@@ -6,6 +6,8 @@
 
 ![](https://github.com/wenyiweb/vuejs-fujun/blob/master/static/imgs/code.png)
 
+## 先安装python2 [下载地址](https://www.python.org/download/releases/2.7.2/)
+
 ## Build Setup
 
 ``` bash
