@@ -23,5 +23,10 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+**前端学习交流群，QQ群**
+![](https://github.com/wenyiweb/vuejs-fujun/blob/master/static/imgs/qq.png)
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+**前端学习交流群，微信群 , 二维码可能会过期，可以加入QQ群 **
+![](https://github.com/wenyiweb/vuejs-fujun/blob/master/static/imgs/wx.jpg)
+
+**喜欢可以给一个star哦**
