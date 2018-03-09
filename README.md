@@ -1,6 +1,6 @@
 # fujun
 
-> 肤君试用
+> 肤君试用 [PS:可以给一个star哦，tks~也可以加入QQ群:692337464一起探讨前端技术]
 
 ## 手机扫描查看效果
 
@@ -23,12 +23,10 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
 ## 前端学习交流群，QQ群
 
 ![](https://github.com/wenyiweb/vuejs-fujun/blob/master/static/imgs/qq.png)
 
-## 前端学习交流群，微信群 , 二维码可能会过期，可以加入QQ群 
 
-![](https://github.com/wenyiweb/vuejs-fujun/blob/master/static/imgs/wx2.jpg)
-
-## 喜欢可以给一个star哦*
+## 喜欢可以给一个star哦

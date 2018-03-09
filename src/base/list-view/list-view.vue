@@ -18,7 +18,7 @@
           <div v-if="item.list.length > 0" class="applyPers" @click="toApplyList(item)">
             <apply-persons :list="item.list" :showmore="showmore" :limit="limit" class="persons"></apply-persons>
             <span v-if="listType === 3" class="applyNum">{{item.try_applys}}人已申请</span>
-            <div v-if="item.list.length > 0" class="toViewList"><span>中奖名单已公布</span><i class="origin-arrow"></i></div>
+            <div v-else class="toViewList"><span>中奖名单已公布</span><i class="origin-arrow"></i></div>
           </div>
         </li>
         <div class="list-load-tip" v-show="data.length" :class="{nomore:nomore}">{{loadtip}}</div>
